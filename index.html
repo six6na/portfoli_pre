@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNA's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/pc.css">
+    <script src="./scripts/jquery-1.12.3.js"></script>
+</head>
+<body>
+    <header>
+        <a id="homeBtn" href="#page-1">
+            <img src="images/logo.svg" alt="">
+        </a>
+        <nav>
+            <a href="#page-2">About ME</a>
+            <a href="#page-3">Works</a>
+            <a href="#page-4">Contact</a>
+        </nav>
+    </header> <!-- header -->
+
+    <div id="container">
+        <section data-anchor="Page 1" id="page-1">
+            <div class="container" id="front-page">
+                <h2>Web designer <br>Yuna Kim</h2>
+                <h1>Portfolio<span>2022</span></h1>
+            </div>
+        </section>
+    </div>
+        
+        <section id="page-2">
+            <div class="container" id="profile">
+                <div class="profile-img">이미지</div>
+                <div class="contents">
+                    <div class="intro">--웹디자이너</div>
+                    <div class="info">
+                        <div class="me">profile</div>
+                        <div class="edu">education</div>
+                        <div class="certification">certification</div>
+                    </div>
+                    <div class="skills">
+                        <h3>skills</h3>
+                        <p>HTML5</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="page-3">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                   <div class="swiper-slide slide1">
+                    <div class="s-wrap">
+                        <div class="mu-img">
+                            <img src="./images/kylie-skin-mu.png" alt="kylieskin mockup image">
+                        </div>
+                        <div class="side-info">
+                            <img src="./images/kylie-skin-logo.png" alt="kylieskin logo" class="c-logo">
+                            <h1>KYLIE SKIN</h1>
+                            <h4>OverView</h4>
+                            <p>Kylie Jenner가 출시한 스킨케어 라인 KYLIE SKIN의<br>
+                                페이지 입니다. KYLIE가 가진 이미지를 KYLIE SKIN 페이지<br>
+                                에서도 느낄 수 있으면 좋을것 같다는 생각에 제작하게 되었습니다.</p>
+                            <div class="infoBtns">
+                                <a href="#" class="web">웹페이지</a>
+                                <a href="#" class="pdf">pdf 자료</a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">Slide 2</div>
+                  <div class="swiper-slide">Slide 3</div>
+                  <div class="swiper-slide">Slide 4</div>
+                  <div class="swiper-slide">Slide 5</div>
+                  <div class="swiper-slide">Slide 6</div>
+                  <div class="swiper-slide">Slide 7</div>
+                  <div class="swiper-slide">Slide 8</div>
+                  <div class="swiper-slide">Slide 9</div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </section>
+
+        <section id="page-4">
+            <div class="contactWrap container">
+                <div class="l-cont">
+                     <h1>CONTACT</h1>
+                     <p>제 포트폴리오를 봐주셔서 감사합니다. <br>
+                        제 작업물이 마음에 드셨거나, 궁금한 사항이 있으시다면 <br>
+                        편안하게 연락주시기 바랍니다.</p>
+                    <a href="tel:010-0000-0000"><strong>PHONE:</strong>010-0000-0000</a>
+                    <a href="mailto:iamsixna@gmail.com"><strong>E-MAIL:</strong>iamsixna@gmail.com</a>
+                    <a href="#"><strong>GITHUB:</strong>iamsixna@gmail.com</a>
+                </div>
+                <div class="r-cont">
+                    <div class="mail">
+                        <form method="post" action="#" class="mailForm">
+                            <div class="name">
+                                <input type="text" name="name" placeholder="NAME">
+                            </div>
+                            <div class="email">
+                                <input type="email" name="email" placeholder="E-MAIL">
+                            </div>
+                            <div class="name">
+                                <textarea name="message" id="message" cols="30" rows="10" placeholder="MESSAGE" style="width: 100%; height:125px"></textarea>
+                            </div>
+                        </form>
+                        <button type="submit" class="send">SEND</button>
+                    </div>
+                </div>
+        </section> 
+        <footer>
+            <p>본 사이트는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다. <br>
+                사용된 일부 이미지 및 폰트 등은 별도의 출처가 있음을 알려드립니다.</p>
+            <p>Copyright ⓒ 2022 Webdesigner UNA. All Rights Reserved</p>
+        </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+</body>
+</html>
