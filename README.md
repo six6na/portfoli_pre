@@ -4,9 +4,6 @@
 ![image](https://user-images.githubusercontent.com/105402240/187142084-b9fbd73d-eb85-48b7-80d9-157db5f5fa15.png)
 포트폴리오 표지페이지는 "인덱스 파일" 컨셉을 잘 보여줄 수 있는 배경색상과 인덱스 모양의 로고와 메뉴로 구성되어있습니다.
 
-처음 포트폴리오 컨셉을 잡을때는 오래된 미제사건 파일 처럼 여러 정보가 들어간 파일과 조금 더 레트로한 느낌을 떠올렸는데
-포트폴리오를 볼때 구성작품과 페이지가 조화롭지 못할 것 같다는 생각에 인덱스 파일의 모습만 가져와 깔끔하게 구성했습니다.
-
 ![image](https://user-images.githubusercontent.com/105402240/187144006-edb7f974-4deb-4e59-a77a-fe15913b35ce.png)
 ![image](https://user-images.githubusercontent.com/105402240/187144522-7871961b-b0c8-4005-9560-5b729b4a5c4b.png)
 ![image](https://user-images.githubusercontent.com/105402240/187144721-55713c43-a440-473c-a3df-9156617c1ed2.png)
